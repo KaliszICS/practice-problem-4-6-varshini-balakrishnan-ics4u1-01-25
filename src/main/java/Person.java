@@ -1,15 +1,15 @@
 class Person {
-    private String firstName;
-    private String lastName;
+    private String firstname;
+    private String lastname;
     private int birthDay;
     private int birthMonth;
     private int birthYear;
     private String ssn;
     private int numberOfSiblings;
     private Person[] siblings;
-    public Person(String firstName, String lastName, int birthDay, int birthMonth, int birthYear, String ssn) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Person(String firstname, String lastname, int birthDay, int birthMonth, int birthYear, String ssn) {
+        this.firstname = firstname;
+        this.lastname = lastname;
         this.birthDay = birthDay;
         this.birthMonth = birthMonth;
         this.birthYear = birthYear;
@@ -18,19 +18,19 @@ class Person {
         this.siblings = new Person[0];
 
     }
-    public String getFirstName() {
-        return this.firstName;
+    public String getFirstname() {
+        return this.firstname;
     }
-    public String setFirstName(String firstName) {
-        this.firstName = firstName;
-        return this.firstName;
+    public String setFirstname(String firstname) {
+        this.firstname = firstname;
+        return this.firstname;
     }
-    public String getLastName() {
-        return this.lastName;
+    public String getLastname() {
+        return this.lastname;
     }
-    public String setLastName(String lastName) {
-        this.lastName = lastName;
-        return this.lastName;
+    public String setLastname(String lastname) {
+        this.lastname = lastname;
+        return this.lastname;
     }
     public String getBirthday() {
         return this.birthDay + "/" + this.birthMonth + "/" + this.birthYear;
