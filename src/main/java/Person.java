@@ -35,7 +35,7 @@ class Person {
     }
     public void addSibling(Person person) {
         Person[] newSiblings = new Person[this.siblings.length + 1];
-        for[int i = 0; i < this.siblings.length; i ++] {
+        for (int i = 0; i < this.siblings.length; i ++) {
             newSiblings[i] = this.siblings[i];
         }
         newSiblings[newSiblings.length - 1] = person;
