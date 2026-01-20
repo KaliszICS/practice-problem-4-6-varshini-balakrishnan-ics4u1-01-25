@@ -23,14 +23,12 @@ class Person {
     }
     public void setFirstname(String firstname) {
         this.firstname = firstname;
-        return this.firstname;
     }
     public String getLastname() {
         return this.lastname;
     }
     public void setLastname(String lastname) {
         this.lastname = lastname;
-        return this.lastname;
     }
     public String getBirthday() {
         return this.birthDay + "/" + this.birthMonth + "/" + this.birthYear;
